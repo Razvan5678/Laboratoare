@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <title>Andrias Razvan – laboratoare</title>
+  <style>
+    /* Stiluri generale pentru pagină */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    h1, h2 {
+      color: #2c3e50;
+    }
+
+    /* Stil pentru lista neordonată a laboratoarelor */
+    ul.meniu-laboratoare {
+      list-style-type: none; /* Elimină bulinele */
+      padding: 0;
+      display: flex;         /* Așază butoanele unul lângă altul */
+      flex-direction: column;/* Sau vertical, dar de regulă un grid/flex uniform. Dacă le vrei pe rând, poți pune flex-direction: row; și gap */
+      gap: 12px;             /* Spațiu între butoane */
+    }
+
+    /* Stil pentru fiecare element / buton */
+    ul.meniu-laboratoare li a {
+      display: block;
+      width: 250px;          /* O lățime fixă, uniformă pentru toate butoanele */
+      padding: 12px 20px;
+      background-color: #3498db; /* Culoare uniformă (albastru) */
+      color: white;              /* Text alb */
+      text-decoration: none;     /* Fără subliniere */
+      text-align: center;        /* Centrarea textului pe buton */
+      border-radius: 8px;        /* Colțuri rotunjite */
+      font-weight: bold;
+      transition: background-color 0.3s ease; /* Tranziție fină la hover */
+    }
+
+    /* Efectul :hover (schimbarea culorii când cursorul trece peste buton) */
+    ul.meniu-laboratoare li a:hover {
+      background-color: #2980b9; /* Un albastru puțin mai închis la hover */
+    }
+  </style>
+</head>
+<body>
+  <h1>Andrias Razvan</h1>
+  <p>Programarea aplicațiilor web – subgrupa 1342a</p>
+
+  <h2>Laboratoare</h2>
+  <ul class="meniu-laboratoare">
+    <li><a href="lab1/">Laboratorul 1 – HTML</a></li>
+    <li><a href="lab3/">Laboratorul 3 – CSS</a></li>
+  </ul>
+</body>
+</html>
