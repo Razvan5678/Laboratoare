@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="UTF-8">
+<title>Laboratorul 3 - Stiluri CSS</title>
+<style>
+/* Stil pentru lista de butoane */
+ul.butoane-meniu {
+    list-style-type: none; /* Scoate bulinele */
+    padding: 0;
+    display: flex; /* Așază elementele unul lângă altul */
+    gap: 15px;     /* Spațiu între butoane */
+}
+
+/* Stil general pentru fiecare element din listă (buton) */
+ul.butoane-meniu li a {
+    display: block;
+    padding: 10px 20px;
+    color: white;             /* Text alb */
+    text-decoration: none;    /* Fără subliniere */
+    border-radius: 8px;       /* Colțuri rotunjite */
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Culori diferite pentru fiecare buton */
+.btn-inline {
+    background-color: #3498db; /* Albastru */
+}
+
+.btn-internal {
+    background-color: #e67e22; /* Portocaliu */
+}
+
+.btn-external {
+    background-color: #2ecc71; /* Verde */
+}
+</style>
+</head>
+<body>
+<h1>Laboratorul 3 - stiluri CSS</h1>
+<p><a href="FormtareText.html">Indicații</a></p>
+
+<!-- Lista neordonată transformată în butoane colorate -->
+<ul class="butoane-meniu">
+    <li><a href="FormtareText_inline.html" class="btn-inline">Stiluri inline</a></li>
+    <li><a href="FormtareText_internal.html" class="btn-internal">Stiluri interne</a></li>
+    <li><a href="FormtareText_external.html" class="btn-external">Stiluri externe</a></li>
+</ul>
+
+<p><a href="../index.html">Laboratoarele mele</a></p>
+</body>
+</html>

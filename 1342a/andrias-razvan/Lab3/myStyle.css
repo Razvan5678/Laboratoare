@@ -1,0 +1,75 @@
+/* Stiluri pentru antetul paginii (header) */
+header {
+    background-color: GreenYellow;
+    text-align: right;
+    font-size: 14px;
+}
+
+#key {
+    color: blue;
+    background-color: yellow;
+    text-align: center;
+    font-family: verdana;
+    font-size: 200%;
+}
+
+header h1 {
+    text-align: center;
+}
+
+/* 1. Primul H1: Courier 14, albastru */
+body > h1 {
+    font-family: "Courier New", Courier, monospace;
+    font-size: 14pt;
+    color: blue;
+}
+
+/* 2. H2: Arial 12, roșu */
+body > h2 {
+    font-family: Arial, sans-serif;
+    font-size: 12pt;
+    color: red;
+}
+
+/* 3. Paragraf principal: Times New Roman, 12, verde */
+body > p {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 12pt;
+    color: green;
+}
+
+/* 4. Secțiunea cu fond galben și text Calibri 12 albastru */
+.sectiune-galbena {
+    background-color: yellow;
+    font-family: Calibri, sans-serif;
+    font-size: 12pt;
+    color: blue;
+}
+
+.sectiune-galbena p {
+    font-style: italic;
+}
+
+/* 5. Secțiunea cu fond albastru și text Arial 10 alb */
+.sectiune-albastra {
+    background-color: blue;
+    font-family: Arial, sans-serif;
+    font-size: 10pt;
+    color: white;
+}
+
+.sectiune-albastra h1 {
+    font-size: inherit;
+    font-family: inherit;
+    color: inherit;
+}
+
+.sectiune-albastra p {
+    font-variant: small-caps;
+}
+
+/* 6. Footer: text alb pe fond negru */
+footer {
+    background-color: black;
+    color: white;
+}
